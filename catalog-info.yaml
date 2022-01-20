@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GoLangTest2
+  description: GoLangTest2
+  annotations: 
+    github.com/project-slug: hemantbhosale916/GoLangTest2
+    backstage.io/source-ref: "https://github.com/hemantbhosale916/GoLangTest2"
+    backstage.io/techdocs-ref: url:https://github.com/hemantbhosale916/GoLangTest2
+    backstage.io/github-actions-id: https://github.com/hemantbhosale916/GoLangTest2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hemantbhosale916
